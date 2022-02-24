@@ -1,0 +1,69 @@
+:root {
+    --color_primary: #FFFFFF;
+    --color_texts: #888888;
+    --color_secondary:#707070;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--color_primary);
+
+}
+
+/* #############
+
+     HEADER
+
+###############*/
+
+.header {
+    background: var(--color_secondary);
+    color: var(--color_primary);
+}
+
+/* #############
+
+  FORMULARY PAGE
+
+###############*/
+
+.form_page {
+    background: var(--color_primary);
+    color: var(--color_texts);
+}
+
+/* #############
+
+  PRODUCTS PAGE
+
+###############*/
+
+.products_page {
+    color: var(--color_texts);
+}
+
+/* #############
+
+    SHARE PAGE
+
+###############*/
+
+.share_page {
+    color: var(--color_texts);
+}
+
+/* #############
+
+      FOOTER  
+
+###############*/
+
+.footer {
+    background: var(--color_secondary);
+    color: var(--color_primary);
+}
